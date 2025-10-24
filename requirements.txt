@@ -1,0 +1,18 @@
+# Task Manager - Simple Version Requirements
+# Install all dependencies: pip install -r requirements.txt
+
+# Backend Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+httpx==0.26.0
+
+# Frontend Dependencies
+streamlit==1.31.0
+requests==2.31.0
+
+# Optional: Development Tools
+# Uncomment if you want these during development
+# black==23.12.1
+# isort==5.13.2
+# flake8==7.0.0
